@@ -555,11 +555,11 @@
       img.height   = 518;
       // If image fails to load, show placeholder
       img.onerror  = () => {
-        frame.innerHTML = '<div class="cover-placeholder">📰<span>No cover</span></div>';
+        frame.innerHTML = '<div class="cover-placeholder">:(<span>No cover</span></div>';
       };
       frame.appendChild(img);
     } else {
-      frame.innerHTML = '<div class="cover-placeholder">📰<span>No cover</span></div>';
+      frame.innerHTML = '<div class="cover-placeholder">:(<span>No cover</span></div>';
     }
 
     // Title
